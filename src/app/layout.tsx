@@ -15,6 +15,9 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   title: "Dota 2 Mobile Apk",
   description: "Download Dota 2 Mobile Apk",
+  other: {
+    "google-adsense-account": "ca-pub-7393180284957966"
+  }
 };
 
 export default function RootLayout({ children }: LayoutProps<"/">) {
